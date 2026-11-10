@@ -1,0 +1,26 @@
+# 依赖 / 环境
+venv/
+__pycache__/
+*.pyc
+
+# 敏感目录（绝对不要提交）
+aw/
+.secrets/
+*.session
+*.key
+*.pem
+.env
+.env.*
+
+# 日志与本地数据
+logs/
+*.log
+*.jsonl
+cache/
+*.db
+*.sqlite
+
+# 备份
+*.bak
+*.bak.*
+*_archive_*/
